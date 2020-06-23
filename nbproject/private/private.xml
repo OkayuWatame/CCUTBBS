@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/adminLogin.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/RegisterAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/studentinfo.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/StudentUpdateAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/replyview.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/dao/impl/BoardDaoImpl.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/struts.xml</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/admin/action/AdminBoardAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/replywrite.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/admin/adminboardadd.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/postview.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/admin/action/AdminLookInfoAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/ReplyWriteAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/postviewing.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/adminview.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/studentboard.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/AdminAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/dao/impl/StudentDaoImpl.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/admin/allstudent.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/admin/adminpostdelete.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/admin/action/BoardAddAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/PostWriteAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/aboutusaf.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/studentviewaf.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/admin/action/PostDeleteAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/register.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/PostViewingAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/studentpost.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/StudentLookInfoAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/admin/action/AdminPostAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/aboutus.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/StudentBoardAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/studentupdate.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/PostViewAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/action/LoginAction.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/dao/impl/PostDaoImpl.java</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/admin/adminboardview.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/studentLogin.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/studentview.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/web/admin/admininfo.jsp</file>
+            <file>file:/D:/Project/SSH_Netbeans/BBS_1/src/java/com/admin/action/AdminStudentAction.java</file>
+        </group>
+    </open-files>
+</project-private>

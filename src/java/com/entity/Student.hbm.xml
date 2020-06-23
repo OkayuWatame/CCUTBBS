@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.entity.Student" table="student" catalog="bbs">
+         <id name="id" type="int">
+            <column name="id"/>
+            <generator class="increment"/>
+        </id>
+        <property name="stuNum" type="int">
+            <column name="stuNum" length="15" not-null="true"/>
+        </property>
+        <property name="realName" type="string">
+            <column name="realName" length="10" not-null="true"/>
+        </property>
+         <property name="nickName" type="string">
+            <column name="nickName" length="20" not-null="true"/>
+        </property>
+         <property name="password" type="string">
+            <column name="password" length="20" not-null="true"/>
+        </property>
+         <property name="qq" type="string">
+            <column name="qq" length="20" not-null="true"/>
+        </property>
+         <property name="email" type="string">
+            <column name="email" length="30" not-null="true"/>
+        </property>
+         <property name="major" type="string">
+            <column name="major" length="20" not-null="true"/>
+        </property>
+        <property name="className" type="string">
+            <column name="className" length="20" not-null="true"/>
+        </property>
+        <property name="photoPath" type="string">
+            <column name="photoPath" length="100" not-null="false"/>
+        </property>
+    </class>
+</hibernate-mapping>

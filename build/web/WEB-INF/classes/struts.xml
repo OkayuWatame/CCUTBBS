@@ -1,0 +1,93 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="zzf" extends="struts-default"> 
+        <action name="login" class="com.action.LoginAction">
+            <result name="success">studentviewaf.jsp</result>
+            <result name="input">studentLogin.jsp</result>
+            <result name="error">studentLogin.jsp</result>
+        </action>
+        <action name="register" class="com.action.RegisterAction">
+            <result name="success">studentLogin.jsp</result>
+            <result name="input">register.jsp</result>
+            <result name="error">register.jsp</result>
+        </action>
+        <action name="adminlogin" class="com.action.AdminAction">
+            <result name="success">adminview.jsp</result>
+            <result name="input">adminLogin.jsp</result>
+            <result name="error">adminLogin.jsp</result>
+        </action>        
+        <action name="StudentLookInfo" class="com.action.StudentLookInfoAction">
+            <result name="success">studentinfo.jsp</result>
+            <result name="input">studentLogin.jsp</result>
+        </action>
+        <action name="studentUpdate" class="com.action.StudentUpdateAction">
+            <result name="success" type="chain">StudentLookInfo</result>
+            <result name="input">studentupdate.jsp</result>
+        </action>        
+        <action name="boardview" class="com.action.StudentBoardAction">
+            <result name="success">studentboard.jsp</result>
+            <result name="input">studentviewaf.jsp</result>
+        </action>
+        <action name="postview" class="com.action.PostViewAction">
+            <result name="success">postview.jsp</result>
+            <result name="input">studentviewaf.jsp</result>
+        </action>
+        <action name="postmineview" class="com.action.PostViewAction">
+            <result name="success">studentpost.jsp</result>
+            <result name="input">studentviewaf.jsp</result>
+        </action>
+        <action name="postwrite" class="com.action.PostWriteAction">
+            <result name="success" type="chain">postmineview</result>
+            <result name="input">studentpost.jsp</result>
+        </action> 
+        <action name="postviewing" class="com.action.PostViewingAction">
+            <result name="success">postviewing.jsp</result>
+            <result name="input">studentpost.jsp</result>
+        </action>        
+        <action name="adinfo" class="com.admin.action.AdminLookInfoAction">
+            <result name="success">/admin/admininfo.jsp</result>
+            <result name="input">adminview.jsp</result>
+        </action>
+        
+        <action name="replywrite" class="com.action.ReplyWriteAction">
+            <result name="success">postviewing.jsp</result>
+            <result name="input">replywrite.jsp</result>
+        </action>
+       
+        <action name="adstudent" class="com.admin.action.AdminStudentAction">
+            <result name="success">/admin/allstudent.jsp</result>
+            <result name="input">adminview.jsp</result>
+        </action>
+        <action name="studel" class="com.admin.action.StudentDeleteAction">
+            <result name="success" type="chain" >adstudent</result>
+            <result name="input">/admin/allstudent.jsp</result>
+        </action>
+        <action name="adpost" class="com.admin.action.AdminPostAction">
+            <result name="success">/admin/adminpostdelete.jsp</result>
+            <result name="input">adminview.jsp</result>
+        </action>
+        <action name="postdel" class="com.admin.action.PostDeleteAction">
+            <result name="success" type="chain" >adpost</result>
+            <result name="input">/admin/adminpostdelete.jsp</result>
+        </action>
+        <action name="adboardview" class="com.action.StudentBoardAction">
+            <result name="success">/admin/adminboardview.jsp</result>
+            <result name="input">adminview.jsp</result>
+        </action>                            
+        <action name="adboard" class="com.admin.action.AdminBoardAction">
+            <result name="success" type="chain" >adboardview</result>
+            <result name="input">/admin/adminboardview.jsp</result>
+        </action>
+        <action name="boardadd" class="com.admin.action.BoardAddAction">
+            <result name="success" type="chain" >adboardview</result>
+            <result name="input">/admin/adminboardadd.jsp</result>
+        </action>
+        <action name="postlook" class="com.action.PostViewAction">
+            <result name="success">postlook.jsp</result>
+            <result name="input">studentview.jsp</result>
+        </action>                                                                               
+    </package>
+</struts>
